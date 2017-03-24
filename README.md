@@ -3,6 +3,7 @@ fcitx的一个仿sogou皮肤
 
 ##使用方式
     如果不存在~/.config/fcitx/skin目录，则创建之：
+    
     mkdir ~/.config/fcitx/skin
 
     cd ~/.config/fcitx/skin
