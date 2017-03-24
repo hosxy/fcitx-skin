@@ -1,5 +1,5 @@
 # fcitx-skin
-fcitx的一个仿sogou皮肤
+fcitx的一个仿sougou拼音皮肤
 
 ## 使用方式
     
