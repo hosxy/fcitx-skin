@@ -1,0 +1,72 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/bin/nodejs', '/usr/bin/npm', 'install', 'hexo' ]
+2 info using npm@1.4.21
+3 info using node@v4.7.2
+4 verbose cache add [ 'hexo', null ]
+5 verbose cache add name=undefined spec="hexo" args=["hexo",null]
+6 verbose parsed url Url {
+6 verbose parsed url   protocol: null,
+6 verbose parsed url   slashes: null,
+6 verbose parsed url   auth: null,
+6 verbose parsed url   host: null,
+6 verbose parsed url   port: null,
+6 verbose parsed url   hostname: null,
+6 verbose parsed url   hash: null,
+6 verbose parsed url   search: null,
+6 verbose parsed url   query: null,
+6 verbose parsed url   pathname: 'hexo',
+6 verbose parsed url   path: 'hexo',
+6 verbose parsed url   href: 'hexo' }
+7 silly lockFile 3f1a2efe-hexo hexo
+8 verbose lock hexo /home/wang/.npm/3f1a2efe-hexo.lock
+9 silly lockFile 3f1a2efe-hexo hexo
+10 silly lockFile 3f1a2efe-hexo hexo
+11 verbose addNamed [ 'hexo', '' ]
+12 verbose addNamed [ null, '*' ]
+13 silly lockFile c225e5a0-hexo hexo@
+14 verbose lock hexo@ /home/wang/.npm/c225e5a0-hexo.lock
+15 silly addNameRange { name: 'hexo', range: '*', hasData: false }
+16 verbose request where is /hexo
+17 verbose request registry http://registry.npm.taobao.org/
+18 verbose request id a57bee787e2cdf73
+19 verbose url raw /hexo
+20 verbose url resolving [ 'http://registry.npm.taobao.org/', './hexo' ]
+21 verbose url resolved http://registry.npm.taobao.org/hexo
+22 verbose request where is http://registry.npm.taobao.org/hexo
+23 info trying registry request attempt 1 at 下午8:04:15
+24 http GET http://registry.npm.taobao.org/hexo
+25 http 200 http://registry.npm.taobao.org/hexo
+26 verbose bad json <html><head><meta http-equiv="expires" content="0"><meta http-equiv="cache-control" content="no-cache"><meta http-equiv="pragma" content="no-cache"><script language=javascript>location='http://172.16.2.14/muxjp.php?url='+document.location;</script></head></html>
+27 error registry error parsing json
+28 verbose headers { server: 'Apache',
+28 verbose headers   'content-length': '266',
+28 verbose headers   'content-type': 'text/html' }
+29 silly registry.get cb [ 200,
+29 silly registry.get   { server: 'Apache',
+29 silly registry.get     'content-length': '266',
+29 silly registry.get     'content-type': 'text/html' } ]
+30 silly lockFile c225e5a0-hexo hexo@
+31 silly lockFile c225e5a0-hexo hexo@
+32 error SyntaxError: Unexpected token <
+32 error <html><head><meta http-equiv="expires" content="0"><meta http-equiv="cache-control" content="no-cache"><meta http-equiv="pragma" content="no-cache"><script language=javascript>location='http://172.16.2.14/muxjp.php?url='+document.location;</script></head></html>
+32 error
+32 error
+32 error     at Object.parse (native)
+32 error     at RegClient.<anonymous> (/usr/share/npm/node_modules/npm-registry-client/lib/request.js:266:23)
+32 error     at Request._callback (/usr/share/npm/node_modules/npm-registry-client/lib/request.js:238:65)
+32 error     at Request.self.callback (/usr/lib/nodejs/request/index.js:148:22)
+32 error     at emitTwo (events.js:87:13)
+32 error     at Request.emit (events.js:172:7)
+32 error     at Request.<anonymous> (/usr/lib/nodejs/request/index.js:896:14)
+32 error     at emitOne (events.js:82:20)
+32 error     at Request.emit (events.js:169:7)
+32 error     at IncomingMessage.<anonymous> (/usr/lib/nodejs/request/index.js:847:12)
+33 error If you need help, you may report this *entire* log,
+33 error including the npm and node versions, at:
+33 error     <http://github.com/npm/npm/issues>
+34 error System Linux 4.9.0-2-amd64
+35 error command "/usr/bin/nodejs" "/usr/bin/npm" "install" "hexo"
+36 error cwd /home/wang/.config/fcitx/skin/sogou
+37 error node -v v4.7.2
+38 error npm -v 1.4.21
+39 verbose exit [ 1, true ]
