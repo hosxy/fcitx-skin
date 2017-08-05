@@ -7,6 +7,6 @@ fcitx的一个仿sougou拼音皮肤
 
     cd ~/.config/fcitx/skin
 
-    git clone git@github.com:whonchen/fcitx-skin.git
+    git clone https://github.com/whonchen/fcitx-skin.git
 
     然后在fcitx的输入法配置工具中启用,fcitx-skin就是皮肤的名字，可以改成自己喜欢的名字
